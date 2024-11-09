@@ -36,7 +36,6 @@ pip install Flask Flask-SQLAlchemy Flask-CORS
 
 Run the Flask app:
 python app.py
-The Flask backend should now be running on [http://localhost:5000](http://localhost:5000).
 
 Next, navigate to the /frontend folder:
 cd ../frontend
@@ -46,7 +45,6 @@ npm install
 
 Run the React app:
 npm run dev
-The React app should now be running on [http://localhost:3000](http://localhost:3000).
 
 ## Project Flow
 - The **Flask backend** handles HTTP requests, interacts with a database (via SQLAlchemy), and returns responses in JSON format.
